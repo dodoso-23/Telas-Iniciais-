@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E1FBD7; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* para ter a altura total da tela sempre */
+}
+
+
+main{
+    background-color: #E1FBD7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    max-width: 500px; /* Largura máxima dos botões,para que a tela fique sempre nas mesmas proporções tanto no pc como no celular*/
+    padding: 20px;
+}
+
+
+header{
+   
+    background-color: #E1FBD7;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+header img{ 
+    margin-top:5vh ;
+    max-width: 100%;
+    height: 30vh;
+}
+
+.botaoBemVindo {
+    width: 120%; 
+    max-width: 500px;
+    height: 60px; 
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+
+.botaoBemVindo:hover{
+    transform: scale(1.1);
+}
+
+
+.botaoOutraConta {
+    width: 120%; 
+    max-width: 500px; /* Largura máxima dos botões, para que a tela fique sempre nas mesmas proporções tanto no pc como no celular*/  
+    height: 60px; /* Altura fixa */
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+
+.botaoOutraConta:hover{
+    transform: scale(1.1);
+}
+
+.linha {
+    width: 120%;
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+
+}p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+a{
+    display: block; /* Faz o <a> se comportar como um bloco */
+    width: 100%; /* Ocupa a largura total do contêiner pai */
+    max-width: 500px; /* Largura máxima (ajuste conforme necessário) */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    margin-right: 50px;
+}

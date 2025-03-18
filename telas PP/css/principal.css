@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E1FBD7; /* Cor de fundo do projeto */
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Ocupa a altura total da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    max-width: 500px; /* Limita a largura do header */
+    height: 10vh; /* Altura relativa à tela */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Espaçamento interno */
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.btn-primary{
+    color: whitesmoke;
+    background-color: #327045;
+}
+
+.offcanvas{
+    background-color: #327045;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px; /* Limita a largura do main */
+    flex-grow: 1; /* Faz o main ocupar o espaço restante */
+    padding: 20px; /* Espaçamento interno */
+}
+
+h1 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+.arraste{
+    font-size: 1.2rem;
+    color: #555; 
+}
+
+.setasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaço entre as setas */
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 100px; /* Tamanho das setas */
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    margin: 2rem;
+    display: flex;
+    justify-content: baseline;
+}
